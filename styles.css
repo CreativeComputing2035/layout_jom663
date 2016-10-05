@@ -1,0 +1,125 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End CSS Reset code */
+
+html{
+	background:white;
+}
+body{
+	background:white;
+	width:80%; 
+    margin-left:10%;
+    font-family: Times Roman;
+}
+header{
+	background:#b0b8c4;
+	height:80px; 
+    text-align: center; 
+    padding-top: 20px; 
+    font-family: gibson; 
+    color: white; 
+    font-size: 3em; 
+}
+nav{
+	background:white; 
+    width: 100px; 
+    float:right;
+    margin-top: 15px;
+    
+}
+aside{
+	background:white;
+	width:130px;
+    height: 300px;
+	float: left;
+    border-right: solid ;
+    border-width: 1.5px; 
+    border-right-color: #b0b8c4; 
+    font-size: 1.5em; 
+    color: #b0b8c4; 
+    text-align: center; 
+    padding-right: 10px; 
+    padding-top: 10px; 
+    margin-top: 15px; 
+    font-family: gibson; 
+    font-kerning: 120%;
+}
+article{
+	background:white; 
+    margin-top: 15px; 
+    margin-left: 130px;
+    padding-left: 20px;
+}
+footer{
+	background:white;
+    margin-top:70px;  
+    border-top: dotted; 
+    border-top-color: #b0b8c4;
+	height:100px;
+	clear:both; 
+    text-align: center; 
+    font-size: 10px;
+}
+h1 {
+    text-align: left;
+    padding-left:160px; 
+    font-size: 1.5em; 
+    font-style: bold; padding: 0;
+}
+h2 {
+    text-align: left; 
+    padding-left:100px; 
+    font-style: italic; 
+    font-size: 15px;
+}
+#main-image {
+    width: 500px;
+    height: 300px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(IMG_5251.jpg);
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+a {
+    color:#b0b8c4; 
+    text-decoration-line: none; 
+    font-size: 20px; 
+    font-family: gibson; 
+
+}
+#menu {
+    padding: 0;
+    margin: 0;
+    list-style:circle
+}
+em {
+    font-style: italic;
+}
