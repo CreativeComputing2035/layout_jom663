@@ -32,6 +32,7 @@ html{
 body{
 	background:white;
 	width:80%; 
+    min-width: 880px;
     margin-left:10%;
     font-family: Times Roman;
 }
@@ -42,7 +43,8 @@ header{
     padding-top: 20px; 
     font-family: gibson; 
     color: white; 
-    font-size: 3em; 
+    font-size: 3em;
+    justify-content: center;
 }
 nav{
 	background:white; 
@@ -73,6 +75,7 @@ article{
     margin-top: 15px; 
     margin-left: 130px;
     padding-left: 20px;
+    min-width: 800px;
 }
 footer{
 	background:white;
